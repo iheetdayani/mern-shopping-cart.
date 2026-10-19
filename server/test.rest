@@ -1,0 +1,46 @@
+
+POST http://localhost:5000/api/Products HTTP/1.1
+content-type: application/json
+
+{
+  "name": "Mouse",
+  "description": "Wireless keyboard",
+  "price": 850,
+  "stock": 10,
+  "category": "Electronics"
+}
+###
+POST http://localhost:5000/api/Products
+Content-Type: application/json
+
+{
+  "name": "Aluminium Laptop Stand",
+  "description": "Adjustable ergonomic laptop stand",
+  "price": 1299,
+  "stock": 12,
+  "category": "Accessories"
+}
+###
+POST http://localhost:5000/api/Products
+Content-Type: application/json
+
+{
+  "name": "Bluetooth Headphones",
+  "description": "Over-ear headphones with noise cancellation",
+  "price": 1999,
+  "stock": 15,
+  "category": "Electronics"
+}
+###
+GET http://localhost:5000/api/Products HTTP/1.1
+###
+POST http://localhost:5000/api/Products
+Content-Type: application/json
+
+{
+  "name": "USB-C Charging Cable",
+  "description": "1.5 metre fast charging cable",
+  "price": 299,
+  "stock": 40,
+  "category": "Accessories"
+}
